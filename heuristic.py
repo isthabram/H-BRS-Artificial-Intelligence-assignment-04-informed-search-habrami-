@@ -1,3 +1,5 @@
+from puzzle import *
+
 def hamming_distance(state: List[int]) -> int:
     """Calculate the Hamming distance for a particular configuration
     :param state: current configuration of the puzzle

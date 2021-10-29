@@ -231,10 +231,4 @@ def get_possible_moves(state: List[int]) -> List[List[int]]:
         possible_moves.append(tmp)
         
     return possible_moves
-        
-        
-# Create a configuration
-config = [1, 2, 3, 4,0, 5, 6, 7, 8]
-
-a = Puzzle([1, 2, 3, 4,0, 5, 6, 7, 8])
-print(get_possible_moves(a.goal_state))
+    
