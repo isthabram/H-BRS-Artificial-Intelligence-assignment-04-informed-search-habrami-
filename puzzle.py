@@ -19,7 +19,7 @@ class Puzzle:
         :return: true if the passed configuration is equal to goal configuration
         """
         # YOUR CODE HERE
-        if(state == goal_state): 
+        if(state == self.goal_state): 
             return True
         else: 
             return False
@@ -231,4 +231,3 @@ def get_possible_moves(state: List[int]) -> List[List[int]]:
         possible_moves.append(tmp)
         
     return possible_moves
-    
