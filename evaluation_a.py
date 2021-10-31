@@ -19,7 +19,7 @@ def eval_helper(puzzle: int, algorithm: Callable, heuristic: Callable):
         'algorithm': algorithm.__name__,
         'heuristic': heuristic.__name__,
         'expanded nodes': expanded_nodes,
-        'execution time': str((end-start)*1000) + 'ms',
+        'execution time': end-start,
         'path cost': len(path)
     }
     return d
