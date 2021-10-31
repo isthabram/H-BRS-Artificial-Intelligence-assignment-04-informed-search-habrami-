@@ -59,8 +59,8 @@ def greedy_search(board: Puzzle, heuristic: Callable) -> Tuple[List[int], int]:
     
 path, expanded_nodes = greedy_search(Puzzle([0,1,2,3,4,5,8,6,7]), manhattan_distance)
 
-for i in path:
+'''for i in path:
     print(i)
 
 print("Path length: ", len(path))
-print("Expanded nodes: ", expanded_nodes)
+print("Expanded nodes: ", expanded_nodes)'''
